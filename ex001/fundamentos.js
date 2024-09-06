@@ -163,3 +163,19 @@ const minhaStringNova3 = minhaStringNova + " Como você está?"
 console.log(minhaStringNova3);
 
 console.log(minhaStringNova3.length);
+
+//data e hora
+const agora = Date();
+console.log(agora);
+
+const natal = new Date(2024,11,25);
+console.log(natal);
+
+//Math
+console.log(Math.PI); //valor de Pi
+
+console.log(Math.round(3.76));//arredondar um número
+
+console.log(Math.sqrt(64));//raiz quadrada
+
+console.log(Math.pow(2,3));
